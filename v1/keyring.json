@@ -1,0 +1,39 @@
+{
+  "format": "redvars-keyring/1",
+  "sequence": 1,
+  "keys": [
+    {
+      "id": "packages-system-2026",
+      "publicKey": "KBVylMZp86a7QjJ8_OZ-qP5VY-t27HF7poz9R9wsSeo",
+      "signs": [
+        "package:system.*"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "packages-redvars-2026",
+      "publicKey": "XUy1WtbnVi2uWufPxK7XRWZbNj3NsEWUyTOPo1Anv-A",
+      "signs": [
+        "package:redvars.*"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "catalogue-2026",
+      "publicKey": "8SfjUYRm8psuIWI8E8wiELopawmXoOmtAzRnYj-4aSg",
+      "signs": [
+        "catalogue"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "releases-2026",
+      "publicKey": "HM-ky-q3Gx_iGP8H4Qkv8CkJcjueJ00U34wjPoaCWOg",
+      "signs": [
+        "release:platform-*",
+        "release:cli-*"
+      ],
+      "status": "active"
+    }
+  ]
+}
