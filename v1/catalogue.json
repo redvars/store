@@ -1,0 +1,39 @@
+{
+  "format": "redvars-catalogue/1",
+  "sequence": 1,
+  "issued": "2026-10-29T12:46:30.640Z",
+  "expires": "2026-11-12T12:46:30.640Z",
+  "keyring": 1,
+  "apps": [
+    {
+      "scope": "redvars.todo",
+      "label": "Todo",
+      "description": "Sample Todo application demonstrating the capabilities of the platform.",
+      "versions": [
+        {
+          "version": "5.0.0",
+          "published": "2026-10-29T12:46:30.635Z",
+          "channel": "stable",
+          "notes": "Todo 5.0.0: the todo table, a role to use it, sample data and a page.",
+          "sdk": "0.12.0",
+          "adds": {
+            "tables": [
+              "Todo"
+            ]
+          },
+          "asks": [],
+          "file": "packages/redvars.todo/redvars.todo-5.0.0.rvpkg",
+          "size": 41451,
+          "digest": "sha256:59cc5ae75ae6a95839d370020abab8f55030db3e886d2250d161638e92030c65",
+          "signatures": [
+            {
+              "key": "packages-redvars-2026",
+              "sig": "bStBTjiRmAKJ5JmsPV5XyDsrjdMkkBhItJwakm1vzJbqrSZ0yd_m6Sv2hZXUW830F0-MViLo41OaAmSlaUQIDA"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "releases": []
+}
