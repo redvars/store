@@ -1,6 +1,6 @@
-0.4.0
-darwin-arm64 05754c5b7b26242ce8f3876b252308921c3c0ae0257ef1bf74fcce6e571b824e cli-0.4.0/redvars-0.4.0-darwin-arm64.gz
-darwin-x64 4a499f91f65887de9549d5a0076fc8d342ae62f8169475e06db6653cb511b343 cli-0.4.0/redvars-0.4.0-darwin-x64.gz
-linux-arm64 6c9d270d182a7a1e1c5725e5046a00da09d684dcc3c1b43bc36261e7d948b791 cli-0.4.0/redvars-0.4.0-linux-arm64.gz
-linux-x64 4af1fbad02e598b87cbebfb05bac44da3d7442f44e2c2c66c66383de1a1c9606 cli-0.4.0/redvars-0.4.0-linux-x64.gz
-windows-x64 cb80c2a24ffe67b38659d83aaf6898ffed76518089badb10a603d9abb2d3293d cli-0.4.0/redvars-0.4.0-windows-x64.exe.gz
+0.5.0
+darwin-arm64 5d1e1985e6993e4e2934061c20ad2cd20bcbc2c96770bce1b5bf3a278f7f5ced cli-0.5.0/redvars-0.5.0-darwin-arm64.gz
+darwin-x64 cc18b2df8a665394a2048b27619a1ef0dd7c96cc180387e50c6023cff6ad210f cli-0.5.0/redvars-0.5.0-darwin-x64.gz
+linux-arm64 76d58dee36918a58ed748fb5de3fa97a62601caae14b3e2d4bd2c8b731e7ad0b cli-0.5.0/redvars-0.5.0-linux-arm64.gz
+linux-x64 fda9e8033582b60e659186db50229db6a6670a4c3a4234f799831cd087b3e36c cli-0.5.0/redvars-0.5.0-linux-x64.gz
+windows-x64 965a431a2c26390f51e520487c48e864262f41023717bf197340194aa94bf669 cli-0.5.0/redvars-0.5.0-windows-x64.exe.gz

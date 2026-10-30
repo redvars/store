@@ -1,8 +1,8 @@
 {
   "format": "redvars-catalogue/1",
-  "sequence": 4,
-  "issued": "2026-10-30T10:29:21.681Z",
-  "expires": "2026-11-13T10:29:21.681Z",
+  "sequence": 5,
+  "issued": "2026-10-30T11:02:49.764Z",
+  "expires": "2026-11-13T11:02:49.764Z",
   "keyring": 1,
   "apps": [
     {
@@ -268,6 +268,85 @@
             {
               "key": "releases-2026",
               "sig": "_4If7uhxzYy2lPDaqZKFT4GUszRgxbxolGcqeWM_mPfsYQX2yhU7EFXZXS5sMhNOkcaPyTE_5f3kXLkuCJieBw"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "product": "cli",
+      "version": "0.5.0",
+      "published": "2026-10-30T11:02:49.763Z",
+      "channel": "stable",
+      "notes": "CLI 0.5.0: redvars instance install, and instance upgrade getting platform releases from the store, a linked folder or an archive; new instances start with the postgres password and the next free port from 8080.",
+      "files": [
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "tag": "cli-0.5.0",
+          "file": "redvars-0.5.0-darwin-arm64.gz",
+          "size": 39360545,
+          "digest": "sha256:5d1e1985e6993e4e2934061c20ad2cd20bcbc2c96770bce1b5bf3a278f7f5ced",
+          "signatures": [
+            {
+              "key": "releases-2026",
+              "sig": "4VZv1zbPl7w8lsp2GF4pOcvF4LhIqFE0UXnsmqOzxj7YkrOHvn7Vu8UP5_FsH0LhqyXVPfNtQdfImMs_n6iFBA"
+            }
+          ]
+        },
+        {
+          "os": "darwin",
+          "arch": "x64",
+          "tag": "cli-0.5.0",
+          "file": "redvars-0.5.0-darwin-x64.gz",
+          "size": 41717216,
+          "digest": "sha256:cc18b2df8a665394a2048b27619a1ef0dd7c96cc180387e50c6023cff6ad210f",
+          "signatures": [
+            {
+              "key": "releases-2026",
+              "sig": "X6LW2JWXaA_rlP0yI_PcrWiuWpT-Za-QsvX5hvpFLU4NNe5Ox1RhkRQta50gNbOjSVnNCH30Oyia0Fj2a72iBw"
+            }
+          ]
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "tag": "cli-0.5.0",
+          "file": "redvars-0.5.0-linux-arm64.gz",
+          "size": 41239132,
+          "digest": "sha256:76d58dee36918a58ed748fb5de3fa97a62601caae14b3e2d4bd2c8b731e7ad0b",
+          "signatures": [
+            {
+              "key": "releases-2026",
+              "sig": "DjXjoCBH8CJH2AYduRAAgNf2GZ63DrRjOEOo56OVj3I_3UWLqx2Jox9EPDkuU_jbPTI8Mg9csfVDDHcqEEslDg"
+            }
+          ]
+        },
+        {
+          "os": "linux",
+          "arch": "x64",
+          "tag": "cli-0.5.0",
+          "file": "redvars-0.5.0-linux-x64.gz",
+          "size": 41703763,
+          "digest": "sha256:fda9e8033582b60e659186db50229db6a6670a4c3a4234f799831cd087b3e36c",
+          "signatures": [
+            {
+              "key": "releases-2026",
+              "sig": "OlhyZnq7-AT0DMyztjIVzFMURYVsFKzcf2I4PsZEUBywkMnvnPitvZPoGwK6Dk-l4LZ_OAQdpZjaGtUsGRCKBQ"
+            }
+          ]
+        },
+        {
+          "os": "windows",
+          "arch": "x64",
+          "tag": "cli-0.5.0",
+          "file": "redvars-0.5.0-windows-x64.exe.gz",
+          "size": 38986814,
+          "digest": "sha256:965a431a2c26390f51e520487c48e864262f41023717bf197340194aa94bf669",
+          "signatures": [
+            {
+              "key": "releases-2026",
+              "sig": "plvspsneSiIoNUm_ydaWFDCp0uOLLii-f9404kALNxrsHJvVmmMUA1irtwqtv-_GMDFRNUOY1UhzyGE95Xm_AA"
             }
           ]
         }
