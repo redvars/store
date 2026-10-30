@@ -1,6 +1,6 @@
 [
   {
     "key": "catalogue-2026",
-    "sig": "aV89-N8UWuOVwvc3jB_Wb1oFl_LG7YAxc8r_pr_UWiJDfr7KRP-KLo3xwQ26fylQ_Vl8MShBLANhGFIG1wtGAw"
+    "sig": "KmHIUTPBOczHfiLBcbu9yJh14SGK7FHB8UEy-rR2xD271p2ADcW8vdZiiGOQxtl8VUHy-p5aq5_lT4W4Gr98DQ"
   }
 ]

@@ -1,8 +1,8 @@
 {
   "format": "redvars-catalogue/1",
-  "sequence": 1,
-  "issued": "2026-10-29T12:46:30.640Z",
-  "expires": "2026-11-12T12:46:30.640Z",
+  "sequence": 2,
+  "issued": "2026-10-30T04:25:34.530Z",
+  "expires": "2026-11-13T04:25:34.530Z",
   "keyring": 1,
   "apps": [
     {
@@ -35,5 +35,85 @@
       ]
     }
   ],
-  "releases": []
+  "releases": [
+    {
+      "product": "cli",
+      "version": "0.3.0",
+      "published": "2026-10-30T04:25:34.528Z",
+      "channel": "stable",
+      "notes": "CLI 0.3.0: a project folder whose instances share platform/ releases; redvars app pack, inspect, sign and verify; redvars upgrade and uninstall.",
+      "files": [
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "tag": "cli-0.3.0",
+          "file": "redvars-0.3.0-darwin-arm64",
+          "size": 146863952,
+          "digest": "sha256:3261006162793b465da13f8f6ed30346b8d62b925984b1da293df7475bbaae08",
+          "signatures": [
+            {
+              "key": "releases-2026",
+              "sig": "b4_benuV_HQz0l7DfV7z7gF3g55Z4H_x08U301CtqJlPiWjRZG1lYahfGr1n2_vymN-SXq4JdSJtMca5-vwVDQ"
+            }
+          ]
+        },
+        {
+          "os": "darwin",
+          "arch": "x64",
+          "tag": "cli-0.3.0",
+          "file": "redvars-0.3.0-darwin-x64",
+          "size": 150577344,
+          "digest": "sha256:746e31a52be10d8f756b5e030714adc274cd540be02cf3f5e06f35b24612503f",
+          "signatures": [
+            {
+              "key": "releases-2026",
+              "sig": "ceWQ1VprCSsAaqHAtu06FNhc-_Dc1Tpp6KDijb_0MDnRzfCIIwXSOJiCtmITpcLMiwOBPUTqnO-8hTXVlmEmDw"
+            }
+          ]
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "tag": "cli-0.3.0",
+          "file": "redvars-0.3.0-linux-arm64",
+          "size": 151845936,
+          "digest": "sha256:e64a6e1a6cd57daca4ac49902c90da6aaf316f57d11835db73f2ac6efc7e95d9",
+          "signatures": [
+            {
+              "key": "releases-2026",
+              "sig": "1tgrEA68dDVilFM6zKlhyRhHD4vcCsNbqVYTwoIz1bGY79KdR0OlIwUBkvAVritp3-bT02tN9bZBWX2waRBKAw"
+            }
+          ]
+        },
+        {
+          "os": "linux",
+          "arch": "x64",
+          "tag": "cli-0.3.0",
+          "file": "redvars-0.3.0-linux-x64",
+          "size": 151841920,
+          "digest": "sha256:50f8a143ea9971a822e9025d7c746d986bd26bafb2479cd4d89b71863d9b2d56",
+          "signatures": [
+            {
+              "key": "releases-2026",
+              "sig": "9U3dNUyqky7Og6ZZfIZe_Dj1itMkX1ZkNUNFY14WOJnTrOm4vMln02eWvIvuhp3ysReZkpStiB8wDgDUNz51BA"
+            }
+          ]
+        },
+        {
+          "os": "windows",
+          "arch": "x64",
+          "tag": "cli-0.3.0",
+          "file": "redvars-0.3.0-windows-x64.exe",
+          "size": 101421896,
+          "digest": "sha256:a0956026c9b12a8e2532b25074be528e32ea912e5e68f013bd22b180f8b42a0e",
+          "signatures": [
+            {
+              "key": "releases-2026",
+              "sig": "6UyP1ciUDyfGhhp6AGSlEBDdRWmlytBhdvcvUgiMoK-j79C0n07NSIEVAUkP-rtT6GPEM7ySLBB59_9I-w1KAw"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
