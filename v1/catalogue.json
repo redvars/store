@@ -1,8 +1,8 @@
 {
   "format": "redvars-catalogue/1",
-  "sequence": 6,
-  "issued": "2026-10-31T11:56:19.854Z",
-  "expires": "2026-11-14T11:56:19.854Z",
+  "sequence": 7,
+  "issued": "2026-11-01T01:37:40.479Z",
+  "expires": "2026-11-15T01:37:40.479Z",
   "keyring": 1,
   "apps": [
     {
@@ -29,6 +29,28 @@
             {
               "key": "packages-redvars-2026",
               "sig": "bStBTjiRmAKJ5JmsPV5XyDsrjdMkkBhItJwakm1vzJbqrSZ0yd_m6Sv2hZXUW830F0-MViLo41OaAmSlaUQIDA"
+            }
+          ]
+        },
+        {
+          "version": "5.0.1",
+          "published": "2026-11-01T01:37:40.476Z",
+          "channel": "stable",
+          "notes": "Todo 5.0.1: built with @redvars/sdk 0.15.0 against script API 4.0.0, which platform 0.21.0 checks; 5.0.0 was built against 3.0.0.",
+          "sdk": "0.15.0",
+          "adds": {
+            "tables": [
+              "Todo"
+            ]
+          },
+          "asks": [],
+          "file": "packages/redvars.todo/redvars.todo-5.0.1.rvpkg",
+          "size": 41450,
+          "digest": "sha256:38c68a5ee7c9f7c4b291ac5ddf3334c4360c6c3c684b6ef4b35ea51cfd1eb1ef",
+          "signatures": [
+            {
+              "key": "packages-redvars-2026",
+              "sig": "6eTUmp1k1iOuv54_jLwV2hur-WRcwVaFKzLRC8Z06g29CXijbNkqm76vjjb6euNlnZJ1FnMHPl29bB0Vpf3jCA"
             }
           ]
         }
