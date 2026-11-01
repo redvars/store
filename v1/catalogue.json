@@ -1,8 +1,8 @@
 {
   "format": "redvars-catalogue/1",
-  "sequence": 7,
-  "issued": "2026-11-01T01:37:40.479Z",
-  "expires": "2026-11-15T01:37:40.479Z",
+  "sequence": 8,
+  "issued": "2026-11-01T01:53:43.531Z",
+  "expires": "2026-11-15T01:53:43.531Z",
   "keyring": 1,
   "apps": [
     {
@@ -448,6 +448,85 @@
             {
               "key": "releases-2026",
               "sig": "g_pJhwfCYu3yR8G3HFZxMPmVANu4pcATwU7_15N7gxle7orYal6vsqak6EQhKObxZ4xhGLZkJg6Ct6ccHLDcDQ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "product": "platform",
+      "version": "0.21.0",
+      "published": "2026-11-01T01:53:43.530Z",
+      "channel": "stable",
+      "notes": "Platform 0.21.0: web and worker run sandboxed scripts, and apps refuses packages built against another major script API version. Since 0.14.1: application tables in their scope schema; the sys scope and bundled applications; the system UI (redvars.ui 0.9.1) with Home, Administration and the Store; installing and updating from the store; and the platform tables renamed to form_layouts, list_layouts and access_controls.",
+      "files": [
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "tag": "platform-0.21.0",
+          "file": "redvars-0.21.0-darwin-arm64.tar.gz",
+          "size": 114133113,
+          "digest": "sha256:16f6a36c524baa9488e5fa67fd826c2f225c4e04a007c54aceba7f4faaafe78c",
+          "signatures": [
+            {
+              "key": "releases-2026",
+              "sig": "9yziTQL11-VoXCc4NwNLFNq-F39kNTUVq5mfPU_Ejg90SoZSD1b_-b8YBbtniQG60GQqfOEk-ybhK0nQkPk8DQ"
+            }
+          ]
+        },
+        {
+          "os": "darwin",
+          "arch": "x64",
+          "tag": "platform-0.21.0",
+          "file": "redvars-0.21.0-darwin-x64.tar.gz",
+          "size": 112576714,
+          "digest": "sha256:f8ba77596293e87733f32a3ec27e303173bc20c7ae3838b6dc814b34c03f2ac2",
+          "signatures": [
+            {
+              "key": "releases-2026",
+              "sig": "Q-kjkWKgqwKLNAXHQelz58Emby7Vw8s2RLbFyq8zID1KXkjo3FouktlSdeYE9NvaFFUkyQkBTQBHZZ-vqOI-AQ"
+            }
+          ]
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "tag": "platform-0.21.0",
+          "file": "redvars-0.21.0-linux-arm64.tar.gz",
+          "size": 118755575,
+          "digest": "sha256:5ae7594fabbe39035de825ebc9b6563b81185d5381b50faf83c982e2ef559429",
+          "signatures": [
+            {
+              "key": "releases-2026",
+              "sig": "p9HYfEl7S7S2qGe7696Ly-0uOOXGEeYyTZURL69bg8_t1WDCgOgNSXYtA8gPyBa1NMmwExfQEux7tGNiKdaBCQ"
+            }
+          ]
+        },
+        {
+          "os": "linux",
+          "arch": "x64",
+          "tag": "platform-0.21.0",
+          "file": "redvars-0.21.0-linux-x64.tar.gz",
+          "size": 121026251,
+          "digest": "sha256:b9f40876e3ef48872a099c5921db56090f06e9569bdf6560857c517cf7bdf106",
+          "signatures": [
+            {
+              "key": "releases-2026",
+              "sig": "PN4_rSu1KVXyqantQGfZ3QXqc5mS7GAJmaeYnN_bza0V94qUEVCDwXTsHW-i0aLULsk_x3US6oKwoeIjFbGWCw"
+            }
+          ]
+        },
+        {
+          "os": "win32",
+          "arch": "x64",
+          "tag": "platform-0.21.0",
+          "file": "redvars-0.21.0-win32-x64.tar.gz",
+          "size": 102949877,
+          "digest": "sha256:883f7890fb70b49204bacbb651a6a155dd5013ba9a181ecb713539cc4c9f156e",
+          "signatures": [
+            {
+              "key": "releases-2026",
+              "sig": "3EryGdhg0Y90ESaeOq5OwvOaDbaANlwZAJ5ZO81WZ6rGN1ltnB3TnpsoiuezBHei7XiyC4GHxdfRT-IvI570Bw"
             }
           ]
         }
