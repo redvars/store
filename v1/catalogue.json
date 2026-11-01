@@ -1,8 +1,8 @@
 {
   "format": "redvars-catalogue/1",
-  "sequence": 8,
-  "issued": "2026-11-01T01:53:43.531Z",
-  "expires": "2026-11-15T01:53:43.531Z",
+  "sequence": 9,
+  "issued": "2026-11-01T05:31:07.987Z",
+  "expires": "2026-11-15T05:31:07.987Z",
   "keyring": 1,
   "apps": [
     {
@@ -527,6 +527,85 @@
             {
               "key": "releases-2026",
               "sig": "3EryGdhg0Y90ESaeOq5OwvOaDbaANlwZAJ5ZO81WZ6rGN1ltnB3TnpsoiuezBHei7XiyC4GHxdfRT-IvI570Bw"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "product": "platform",
+      "version": "0.22.0",
+      "published": "2026-11-01T05:31:07.986Z",
+      "channel": "stable",
+      "notes": "Platform 0.22.0: apps installs an application's script modules into sys.script_modules, by ADR-010012's three-way rule, and at the first boot applies a version an earlier release made active again, so its script modules appear (CORE-123). The system UI (redvars.ui 0.10.0) takes Peacock 3.13.0's condition builder, and read-only values use wc-field's readonly (COE-34).",
+      "files": [
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "tag": "platform-0.22.0",
+          "file": "redvars-0.22.0-darwin-arm64.tar.gz",
+          "size": 114179810,
+          "digest": "sha256:95f63f45826da561a2f637fec9ce3e3fc1169f207d80c3a5cc4093175f2bd56c",
+          "signatures": [
+            {
+              "key": "releases-2026",
+              "sig": "IW2NRpQ-NhnQIoebwzbQ5yeQTM8ab6ee5pRMxvlthoEryjIFR9_u35wEAjDz5isXJctGY30PKbL3BJ8I0rs6Bw"
+            }
+          ]
+        },
+        {
+          "os": "darwin",
+          "arch": "x64",
+          "tag": "platform-0.22.0",
+          "file": "redvars-0.22.0-darwin-x64.tar.gz",
+          "size": 112623460,
+          "digest": "sha256:286d786751a052289f1895424f4e40eef0d1674db6280eaa4ca78bd9317b4d13",
+          "signatures": [
+            {
+              "key": "releases-2026",
+              "sig": "Y7HP_8vw7YOtMGfFlCEq1MLzQ-QPDTaIvJB8Gr_fG894ymcPjknBL3f-Yltew1d-TWzWNFaChGwpS8C1gZ2DAg"
+            }
+          ]
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "tag": "platform-0.22.0",
+          "file": "redvars-0.22.0-linux-arm64.tar.gz",
+          "size": 118807351,
+          "digest": "sha256:89e78040fd61685f75df9cdc0d2093cca273e3906e30908a58e66afa3465da20",
+          "signatures": [
+            {
+              "key": "releases-2026",
+              "sig": "CXy9uZEKnWtZOIEK0PWl7abhJOeO-dCJDyxrIheS7M1A1GdND13OwYOVY90CPLsDzNuVQxdfm6Qjyy2MtDDMBQ"
+            }
+          ]
+        },
+        {
+          "os": "linux",
+          "arch": "x64",
+          "tag": "platform-0.22.0",
+          "file": "redvars-0.22.0-linux-x64.tar.gz",
+          "size": 121070913,
+          "digest": "sha256:4a1a9e7957094f411ce88f9e2564da2f30d451237075dd624d2e9360d66e09a8",
+          "signatures": [
+            {
+              "key": "releases-2026",
+              "sig": "m2_p42h5TCGRDmtUcrToLJfjnAcjGsJ8WWwrIrH1rn2J_egXRLfaYGofVh5ADBtF0_6lmVy7xGZUdZ3TxUUrBA"
+            }
+          ]
+        },
+        {
+          "os": "win32",
+          "arch": "x64",
+          "tag": "platform-0.22.0",
+          "file": "redvars-0.22.0-win32-x64.tar.gz",
+          "size": 102992365,
+          "digest": "sha256:f6ba3dbc9a6feb54e5d74ba0198713b88f61d02c1ce2418cb9225f673536fd39",
+          "signatures": [
+            {
+              "key": "releases-2026",
+              "sig": "lpWhhfcRh9mDZ9bnW07dzmzvRNIFCzc4zrMPgUf1CLXW4sllrPaB6hL_UsGVKdZyTHxPgzkNsR0vqKYLRPA-DQ"
             }
           ]
         }
