@@ -1,8 +1,8 @@
 {
   "format": "redvars-catalogue/1",
-  "sequence": 9,
-  "issued": "2026-11-01T05:31:07.987Z",
-  "expires": "2026-11-15T05:31:07.987Z",
+  "sequence": 10,
+  "issued": "2026-11-02T02:56:54.772Z",
+  "expires": "2026-11-16T02:56:54.772Z",
   "keyring": 1,
   "apps": [
     {
@@ -51,6 +51,28 @@
             {
               "key": "packages-redvars-2026",
               "sig": "6eTUmp1k1iOuv54_jLwV2hur-WRcwVaFKzLRC8Z06g29CXijbNkqm76vjjb6euNlnZJ1FnMHPl29bB0Vpf3jCA"
+            }
+          ]
+        },
+        {
+          "version": "5.1.0",
+          "published": "2026-11-02T02:56:54.767Z",
+          "channel": "stable",
+          "notes": "Pages and a workspace: My todos, All todos, Todo, and the Todo workspace (CORE-138).",
+          "sdk": "0.19.0",
+          "adds": {
+            "tables": [
+              "Todo"
+            ]
+          },
+          "asks": [],
+          "file": "packages/redvars.todo/redvars.todo-5.1.0.rvpkg",
+          "size": 45585,
+          "digest": "sha256:08121d684c535f9d70d677ff2a385d4f343754a509ff0447cb4eac56d9067666",
+          "signatures": [
+            {
+              "key": "packages-redvars-2026",
+              "sig": "epUmrTtCGoWTwafwN7PgHufOMAGF7dFJbl8VmBQLPmSf2MP5qblxPnoWCiyx14Q4VY2EGALpE8bKni4DIo8hAA"
             }
           ]
         }
